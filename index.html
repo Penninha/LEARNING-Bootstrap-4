@@ -137,8 +137,7 @@
 
     <div class="container">
 
-        <!-- SCROLL SPY -->
-
+        <!-- BEM-VINDO -->
         <div class="row">
             <div class="col-12 text-center mt-5">
                 <h1 class="display-3">Lorem ipsum</h1>
@@ -147,9 +146,10 @@
             </div>
         </div>
 
+        <!-- SCROLL SPY -->
         <div class="row mb-5">
             <!-- MENU VERTICAL -->
-            <div class="col-3">
+            <div class="col-sm-6 col-md-4 mb-3">
                 <nav id="navbarVertical" class="navbar navbar-light bg-light">
                     <nav class="nav nav-pills flex-column">
                         <a class="nav-link" href="#item1">Vivamus velit</a>
@@ -171,7 +171,8 @@
                 </nav>
             </div>
 
-            <div class="col-9">
+            <!-- SCROLL SPY -->
+            <div class="col-sm-6 col-md-8">
 
                 <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollSpySite">
 
@@ -219,10 +220,10 @@
         </div>
 
         <!-- CARDS -->
-        <div class="row mb-5">
+        <div class="row justify-content-center">
 
-            <div class="col-sm-4">
-                <div class="card">
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-5">
                     <img class="card-img-top" src="imgs/card-img1.jpg" />
                     <div class="card-body">
                         <h4 class="card-title">Lorem ipsum</h4>
@@ -247,8 +248,8 @@
                 </div>
             </div>
 
-            <div class="col-sm-4">
-                <div class="card">
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-5">
                     <img class="card-img-top" src="imgs/card-img2.jpg" />
                     <div class="card-body">
                         <h4 class="card-title">Lorem ipsum</h4>
@@ -273,9 +274,9 @@
                 </div>
             </div>
 
-            <div class="col-sm-4">
+            <div class="col-sm-6 col-md-4">
                 <img class="card-img-top" src="imgs/card-img3.jpg" />
-                <div class="card">
+                <div class="card mb-5">
                     <div class="card-body">
                         <h4 class="card-title">Lorem ipsum</h4>
                         <h6 class="card-subtitle mb-2 text-muted">dolor sit amet</h6>
@@ -289,7 +290,7 @@
                         <li class="list-group-item">Nullam id neque quis massa placerat malesuada</li>
                     </ul>
                     <div class="card-body">
-                        <a href="#" class="card-link">Card link 1</a>
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Card link 1</a>
                         <a href="#" class="card-link">Card link 2</a>
                     </div>
                     <div class="card-footer text-muted">
@@ -297,12 +298,145 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
     </div>
 
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4">Lorem ipsum</h1>
+                    <p class="leader text-justify">
+                        Mauris erat enim, facilisis luctus felis non, scelerisque elementum enim. Nam vel ante dolor.
+                        In hac habitasse platea dictumst. Etiam interdum orci eu sagittis porttitor. Vivamus gravida,
+                        tortor sit amet condimentum porttitor, purus diam malesuada nisi, id fermentum lectus lectus
+                        vitae elit. Ut a massa ac massa faucibus cursus. Sed id fermentum dui. Etiam eget diam vel dui
+                        aliquam faucibus. Aenean quis scelerisque libero. Pellentesque habitant morbi tristique
+                        senectus et netus et malesuada fames ac turpis egestas. Mauris sollicitudin, purus efficitur
+                        vulputate gravida, dolor ipsum gravida mauris, et rhoncus ante justo sit amet quam. Maecenas
+                        rutrum tincidunt sodales. Aenean aliquam, dui non commodo fringilla, ex justo convallis justo,
+                        non malesuada ex sem et eros. Morbi a ex est.
+                    </p>
+                    <hr>
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-pills justify-content-center mb-4" id="pillsNav" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#navItem01">Pills 01</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#navItem02">Pills 02</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-pills-03" data-toggle="pill" href="#navItem03">Pills 03</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="navPillsContent">
+                        <div class="tab-pane fade show active" id="navItem01" role="tabpanel">
+                            <div class="row">
+                                <div class="col sm-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4a1QAFYLrn0"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col sm-6">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nihil
+                                    repellendus itaque dolore sit consequatur cumque deleniti vero. Sapiente, autem
+                                    illum suscipit vitae id consequuntur nisi alias nesciunt ex delectus!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="navItem02" role="tabpanel">
+                            <div class="row">
+                                <div class="col sm-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9h3mPfBdS3M"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col sm-6">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quaerat velit
+                                    maxime tenetur animi, asperiores autem sequi magni ea. Dicta voluptatum fuga
+                                    repellendus necessitatibus laudantium porro ea nostrum delectus? Asperiores.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="navItem03" role="tabpanel">
+                            <div class="row">
+                                <div class="col sm-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D5sdS2tJg6Q"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col sm-6">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi cum consequatur,
+                                    eveniet molestias mollitia laboriosam? Molestiae dolores, laborum rem alias
+                                    pariatur doloribus deserunt itaque magnam. Quibusdam rem sunt blanditiis
+                                    aspernatur.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Lorem ipsum</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>Morbi</h5>
+                                <p>Morbi nec erat quam. Ut vestibulum odio vel sapien dictum porta. In hac habitasse
+                                    platea dictumst. Nunc porta, nisi at laoreet lacinia, metus lorem sagittis nisl,
+                                    non ullamcorper mauris nibh nec velit. Morbi lacinia lacinia sodales. Sed feugiat
+                                    ornare cursus. Suspendisse fermentum quam ut aliquet dignissim. Nulla felis nisl,
+                                    euismod
+                                    non pulvinar a, vulputate et orci. Aliquam a interdum nunc.
+                                </p>
+                            </div>
+                            <div class="col-6">
+                                <h5>Morbi</h5>
+                                <p>Morbi nec erat quam. Ut vestibulum odio vel sapien dictum porta. In hac habitasse
+                                    platea dictumst. Nunc porta, nisi at laoreet lacinia, metus lorem sagittis nisl,
+                                    non ullamcorper mauris nibh nec velit. Morbi lacinia lacinia sodales. Sed feugiat
+                                    ornare cursus. Suspendisse fermentum quam ut aliquet dignissim. Nulla felis nisl,
+                                    euismod
+                                    non pulvinar a, vulputate et orci. Aliquam a interdum nunc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">
+                        dolor sit amet
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
